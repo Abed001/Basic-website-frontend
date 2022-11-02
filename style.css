@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  }
+  .hero-section{
+      display: flex;
+      justify-content: space-evenly;
+      width: 100%;
+      min-height:100vh ;
+      background-size: cover;
+      background-position: center;
+      background-image: url("https://images.pexels.com/photos/844813/pexels-photo-844813.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  }
+  
+  .hero-section ul{
+      height: 50px;
+      margin: 52px 10px;
+      list-style: none;
+      color: white;
+      display: flex;
+      
+    
+  }
+  .hero-section ul li{
+  margin: 0 40px;
+  
+  }
+  
+  .hero-section img{
+      width: 200px;
+      height: 100px;
+      margin: 5px 5px;
+  }
+  
+  
+  
+  .menu{
+      color: white;
+      margin: 52px 0;
+  }
+  
+  
