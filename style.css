@@ -141,6 +141,7 @@ body{
 
 
   .brand-story button{
+   
    position: relative;
     cursor: pointer;
     border: 1px solid black;
@@ -152,9 +153,9 @@ body{
    }
    
    .brand-story button::before{
-  content: "";
+ content: "";
   position: absolute;
-  background-color: orangered;
+  background-color: black;
   /*dimension of ripple we put it to zero so we dont see it before hovering*/
   width:0;
   height: 0;
@@ -162,7 +163,7 @@ body{
   top: 50%;
   transform: translate(-50%,-50%);
   border-radius: 50%;
-  transition: width 0.5s ,height 0.5s;
+  transition: width 0.75s ,height 0.75s;
 }
 
 .btn:hover::before{
@@ -170,6 +171,12 @@ body{
   height: 200px;
 
 }
+
+.btn:hover{
+  color: #EFEFEF;
+  
+  }
+
 
 .btn span{
   position: relative;
@@ -359,27 +366,28 @@ margin: -20px 400px;
 
 
 .section-theme p{
- max-width: 400px;
+  margin-top: 50px;
+  margin-left: 30px;
+ min-width: 500px;
  font-size: 30px;
  
 }
- 
+ /*
 .section-theme div{
   margin: 100px 0px;
 
-}
-.section-theme img{
-  margin: 50px 0px;
-  height:300px;
-
-}
-#span-theme{
- font-size:34px ;
+}*/
+.section-theme video{
+  width: 500px;
+  margin: 50px 30px;
+  height:700px;
 
 }
 
 
 .section-theme button{
+  margin-top: 100px;
+  margin-left: 30px;
  position: relative;
   cursor: pointer;
   border: 1px solid black;
@@ -393,15 +401,14 @@ overflow: hidden;
  .section-theme button::before{
 content: "";
 position: absolute;
-background-color: orangered;
-
+background-color: black;
 width:0;
 height: 0;
 left: 50%;
 top: 50%;
 transform: translate(-50%,-50%);
 border-radius: 50%;
-transition: width 0.5s ,height 0.5s;
+transition: width 0.75s ,height 0.75s;
 }
 
 .btn-theme:hover::before{
@@ -409,11 +416,124 @@ width: 200px;
 height: 200px;
 
 }
+.btn-theme:hover{
+  color: #EFEFEF;
+  
+  }
 
 .btn-theme span{
 position: relative;
 z-index: 1;
 }
+
+.section-theme #span-theme{
+  font-size: 100px;
+  font-weight: 700;
+}
+
+
+
+.featured-news h1{
+  font-size: 40px;
+}
+
+.featured-news hr{
+ margin-left: 40px;
+ margin-right: 40px;
+  margin-top:70px;
+  margin-bottom:20px;
+  min-width: 1270px;
+}
+.featured-news-content{
+  height:100px;
+  margin: 0px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+.featured-news-content button{
+   margin-top: 40px;
+   width: 200px;
+   height: 50px;
+  position: relative;
+   cursor: pointer;
+   border: 1px solid black;
+ border-radius: 20px;
+ font-weight: 900;
+ padding: 10px 30px;
+ overflow: hidden;
+  
+  }
+  
+  .featured-news-content button::before{
+content: "";
+ position: absolute;
+ background-color: black;/*
+ /*dimension of ripple we put it to zero so we dont see it before hovering*/
+ 
+ width:0;
+ height: 0;
+ left: 50%;
+ top: 50%;
+ transform: translate(-50%,-50%);
+ border-radius: 50%;
+ transition: width 0.75s ,height 0.75s;
+}
+
+.btn-featured:hover::before{
+ width: 200px;
+ height: 200px;
+
+}
+
+.btn-featured:hover{
+ color: #EFEFEF;
+ 
+ }
+
+
+.btn-featured span{
+ position: relative;
+ z-index: 1;
+}
+
+.first-news-section{
+  width: 100%;
+  display: flex;
+ flex-direction: row;
+  margin: 10px 40px;
+
+}
+.first-news-section img{
+width: 400px;
+}
+.first-news-section h1 {
+  width: 500px;
+  margin-top: -4px;
+margin-left: 20px;
+}
+
+.featured-news i{
+  margin-left:1290px;
+  margin-top: -1000px;
+}
+
+  .first-news-section-container h4{
+    margin-left:450px;
+    margin-top:-44px;
+    width: 100px;
+  }
+
+ 
+
+
+
+
+
+
 
 
 

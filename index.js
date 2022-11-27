@@ -1,3 +1,9 @@
+/*
+const scroll=new LocomotiveScroll({
+    el:document.querySelector("[data-scroll-container]"),smooth: true,
+    tablet:{smooth:true},smartphone:{smooth:true},
+});*/
+
 
     const bottomContainerEl=document.querySelector(".brand-story");
     const navbarEl=document.querySelector(".nav");
